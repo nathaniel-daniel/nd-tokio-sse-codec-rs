@@ -35,6 +35,10 @@ async fn main() {
 }
 ```
 
+## References
+ * https://html.spec.whatwg.org/multipage/server-sent-events.html#parsing-an-event-stream
+ * https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events#event_stream_format
+
 ## License
 Licensed under either of
  * Apache License, Version 2.0 (LICENSE-APACHE or http://www.apache.org/licenses/LICENSE-2.0)

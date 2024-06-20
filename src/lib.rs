@@ -107,7 +107,7 @@ impl Decoder for SseCodec {
                     // To handle a multi-byte newline,
                     // we need to discard the next byte if the current newline is a \r and the next byte is a \n.
                     // However, doing that here will lead to issues if a \r newline is the last newline in a stream.
-                    // Instead, set a flag and skip the extra \n if needed.
+                    // Instead, set a flag and skip the extra \n then if needed.
                     if bytes[newline_index] == b'\r' {
                         self.last_newline_cr = true;
                     }
