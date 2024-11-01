@@ -8,10 +8,10 @@ license = "MIT OR Apache-2.0"
 tokio-util = { version = "0.7.12", features = [ "codec" ] }
 
 [dev-dependencies]
-tokio = { version = "1.40.0", features = [ "macros", "fs", "rt" ] }
+tokio = { version = "1.41.0", features = [ "macros", "fs", "rt" ] }
 tokio-stream = "0.1.16"
 reqwest = { version = "0.12", features = [ "stream" ] }
-futures-util = "0.3.30"
+futures-util = "0.3.31"
 
 [profile.release]
 opt-level = 3
