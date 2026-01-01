@@ -1,0 +1,1 @@
+rd_("AeAn IO error occurred.lThe id fieldAmMake a new SSE Event decoder.nThe data fieldAoReturns the argument unchanged.00BaCalls <code>U::from(self)</code>.00oThe event fieldoThe retry fieldlAn sse codeclAn sse eventAjA line was not valid utf8.AbAn sse codec error")
